@@ -15,12 +15,12 @@ int main()
 	 
 	     srand(time(NULL));                                                     //random number seed initialized
      
-		 cout << "Do you want to play the game_guess_number£¨Y/N£©?" << endl; 
+		 cout << "Do you want to play the game_guess_numberÂ£Â¨Y/NÂ£Â©?" << endl; 
 		 cin >> choice;
          
          time_coun = 0;
 		 if (choice == 'N'){
-             cout << "You have totally played" << play_coun << "time(s), and you have won " << win << " time(s)£¬losen " << lose << " time(s)¡£" << endl;
+             cout << "You have totally played" << play_coun << "time(s), and you have won " << win << " time(s)Â£Â¬losen " << lose << " time(s)Â¡Â£" << endl;
              break;
          }                                                                                 //put out the result when end the game
 		 if (choice == 'Y'){
@@ -35,7 +35,7 @@ int main()
 		 	cout << random_num[0] << random_num[1] << random_num[2];
 	 	 	
 			while (true) {
-		     	cout << "Please input three different numbers you guess£º" << endl;        
+		     	cout << "Please input three different numbers you guessÂ£Âº" << endl;        
      	     	all_right = 0, num_right = 0, time_coun += 1;
              
 			 	for (int j = 0; j < 3; ++j){  
@@ -65,5 +65,6 @@ int main()
           	}
 		}
 	}
+	return 0;
 }
  
