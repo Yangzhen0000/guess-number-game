@@ -20,7 +20,7 @@ int main()
          
          time_coun = 0;
 		 if (choice == 'N'){
-             cout << "You have totally played" << play_coun << "time(s), and you have won " << win << " time(s)£¬losen " << lose << " time(s)¡£" << endl;
+             cout << "You have totally played" << play_coun << "time(s), and you have won " << win << " time(s), lost " << lose << " time(s)¡£" << endl;
              break;
          }                                                                                 //put out the result when end the game
 		 if (choice == 'Y'){
